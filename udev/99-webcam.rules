@@ -1,0 +1,1 @@
+KERNEL=="video[0-9]|video1[0-2]", SUBSYSTEM=="video4linux", ATTR{idVendor}=="05a3", ATTR{idProduct}=="9331", ATTRS{serial}=="Ucamera001", NAME="video10", SYMLINK+="webcam"
