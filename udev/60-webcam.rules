@@ -1,1 +1,0 @@
-SUBSYSTEM=="usb", KERNEL=="video[0-9]*", SUBSYSTEM=="video4linux", ATTR{idVendor}=="05a3", ATTR{idProduct}=="9331", SYMLINK+="foo/video10"
